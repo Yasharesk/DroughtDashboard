@@ -1,0 +1,18 @@
+[default]
+DATA_DIR = Data
+SQLDriver = ODBC Driver 17 for SQL Server
+
+[mapbox]
+token = mapbox_token
+
+[drought]
+DroughtServer = X.X.X.X
+DroughtDatabase =  DATABASE_NAME
+DroughtUser = USERNAME
+DroughtPWD = PASSWORD
+
+[shapes]
+ShapesServer = X.X.X.X
+ShapesDatabase =  DATABASE_NAME
+ShapesUser = USERNAME
+ShapesPWD = PASSWORD
