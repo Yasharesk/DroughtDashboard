@@ -2,6 +2,8 @@
 
 This module will produce plots and graphs of drought information in Iran, where the main map is a plotly express *scatter_mapbox* with the drought index information provided for around 60K points around the country. 
 
+![image](graph_sample.jpeg)
+
 The requirements are set for serving the app via *gunicorn*. The port should be set according to the server admin. **The** `app.run_server(debug=True)` **should be changed to False for production.** 
 
 ##### Prerequisites:
